@@ -3939,6 +3939,14 @@ tbody.collapse.show {
   text-decoration: none;
 }
 
+/*2018年2月10日*/
+.navbar-nav li:hover{
+  display: block;
+  background: green;
+  padding: 10px;
+
+}
+
 .navbar-nav {
   display: -webkit-box;
   display: -webkit-flex;
