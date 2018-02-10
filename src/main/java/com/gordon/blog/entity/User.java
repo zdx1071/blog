@@ -2,6 +2,7 @@ package com.gordon.blog.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * Created by gordon.zhang on 2018/2/8.
@@ -13,17 +14,25 @@ public class User implements Serializable{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long uid;
 
-    private String name;
-
-    private String email;
-
-    private String username;
+    @Column(unique = true)
+    private String username;    //账号
 
     private String password;
 
+    private String name;    //昵称
+
+    private String email;
+
     private String avatar;  //头像图片地址
+
+    private String salt;    //加密的盐
+
+    @ManyToMany(fetch = FetchType.EAGER)
+    @JoinTable(name = "SysUserRole",joinColumns = {@JoinColumn(name = "uid")},
+            inverseJoinColumns = {@JoinColumn(name = "roleId")})
+    private List<SysRole> roleList;    //
 
     protected User() {
     }
@@ -35,12 +44,32 @@ public class User implements Serializable{
         this.password = password;
     }
 
-    public Long getId() {
-        return id;
+    public String getCredentialsSalt() {
+        return this.username + this.salt;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public String getSalt() {
+        return salt;
+    }
+
+    public void setSalt(String salt) {
+        this.salt = salt;
+    }
+
+    public Long getUid() {
+        return uid;
+    }
+
+    public void setUid(Long uid) {
+        this.uid = uid;
+    }
+
+    public List<SysRole> getRoleList() {
+        return roleList;
+    }
+
+    public void setRoleList(List<SysRole> roleList) {
+        this.roleList = roleList;
     }
 
     public String getName() {

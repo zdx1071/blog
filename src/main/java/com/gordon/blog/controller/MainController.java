@@ -23,13 +23,19 @@ public class MainController {
         return "redirect:/blogs";
     }
 
-    @RequestMapping("/login")
-    public String login(){
-        return "login";
-    }
 
     @RequestMapping("/register")
     public String register(){
         return "register";
+    }
+
+    @RequestMapping("/admin")
+    public String admin(){
+        return "admin/background";
+    }
+
+    @RequestMapping("/403")
+    public String error403(){
+        return "/error/403";
     }
 }

@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-@MapperScan("com.gordon.blog.dao")
 public class Application {
 
     public static void main(String[] args) {

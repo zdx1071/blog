@@ -7,13 +7,10 @@
 
 <div class="container blog-content-container">
 
-	<form  th:action="@{/login}" method="post">
-		<h2 >请登录</h2>
-
+	<form  action="loginUser" method="post">
 		<div class="form-group col-md-5">
 			<label for="username" class="col-form-label">账号</label>
 			<input type="text" class="form-control" id="username" name="username" maxlength="50" placeholder="请输入账号">
-
 		</div>
 		<div class="form-group col-md-5">
 			<label for="password" class="col-form-label">密码</label>
@@ -23,10 +20,10 @@
 			<input type="checkbox" name="remember-me"> 记住我
 		</div>
 		<div class="form-group col-md-5">
-			<button  class="btn btn-primary" type="button">登录</button>
+			<input  type="submit" value="登录">
 		</div>
-		<div class=" col-md-5" th:if="${loginError}">
-			<p class="blog-label-error" th:text="${errorMsg}"></p>
+		<div class=" col-md-5" >
+			<p class="blog-label-error" th:text="${msg}"></p>
 		</div>
 	</form>
 </div> <!-- /container -->
