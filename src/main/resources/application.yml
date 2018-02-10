@@ -1,0 +1,25 @@
+server:
+  port: 8080
+debug: true
+#thymeleaf
+spring:
+  thymeleaf:
+    encoding: UTF-8
+    cache: false
+    mode: HTML5
+  mvc:
+    static-path-pattern: /**
+  resources:
+      static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,file:${web.load-path}
+  #DataSource
+  datasource:
+    url: jdbc:mysql://localhost/blog?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  #jpa
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
