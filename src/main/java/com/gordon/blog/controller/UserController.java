@@ -1,16 +1,30 @@
 package com.gordon.blog.controller;
 
+import com.gordon.blog.entity.User;
+import com.gordon.blog.service.BlogService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import javax.servlet.http.HttpSession;
 
 /**
  * Created by gordon.zhang on 2018/2/9.
  */
 @Controller
-@RequestMapping("/userInfo")
+@RequestMapping("/userspace")
 public class UserController {
+
+    @Autowired
+    private BlogService blogService;
+
+    @RequestMapping("/u")
+    public String userSpace(){
+        return "userspace/u";
+    }
 
     @RequestMapping("/userList")
     public String userInfo(){

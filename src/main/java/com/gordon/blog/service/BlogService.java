@@ -1,6 +1,7 @@
 package com.gordon.blog.service;
 
 import com.gordon.blog.entity.Blog;
+import com.gordon.blog.entity.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
@@ -18,6 +19,8 @@ public interface BlogService {
     Page<Blog> listBlogs(Pageable pageable);
 
     Page<Blog> listBlogsByCatalog(int catalogId,Pageable pageable);
+
+    //Page<Blog> listBlogsByUser(User user, Pageable pageable);
 
 
 

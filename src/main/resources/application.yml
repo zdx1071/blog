@@ -6,7 +6,7 @@ spring:
   thymeleaf:
     encoding: UTF-8
     cache: false
-    mode: HTML5
+    mode: LEGACYHTML5
   mvc:
     static-path-pattern: /**
   resources:
