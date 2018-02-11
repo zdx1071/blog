@@ -19,12 +19,15 @@
 <div class="container blog-content-container">
 
     <div class="row">
+        <img th:src="${user.avatar} == null ? '/images/avatar-defualt.jpg' : ${user.avatar} " class="blog-avatar-50">
+        <h2 th:text="${user.username}"></h2>
+        </h2>
 
         <!-- Blog Entries Column -->
         <div class="col-md-8">
 
             <!-- Blog Post -->
-            <div class="card mb-4">
+           <!-- <div class="card mb-4">
                 <div class="card-block" th:object="${blogModel.blog}">
                 	<input type="hidden" name="id" th:value="*{id}" id="blogId">
                     <input  type="text" class="form-control" placeholder="请填写博客标题"  id="title" name="title"  th:value="*{title}"  maxlength="50">
@@ -37,7 +40,7 @@
                     <hr>
                 </div>
 
-            </div>
+            </div>-->
 
         </div>
 
@@ -64,7 +67,7 @@
 
                 </div>
  				<!-- 图片上传 -->
-                <div class="card ">
+               <!-- <div class="card ">
                     <h5 class="card-header"><i class="fa fa-cog" aria-hidden="true"></i> 博客设置</h5>
                     <div class="card-block">
                         <div class="row mt-1">
@@ -87,7 +90,7 @@
                         
                     </div>
 
-                </div>
+                </div>-->
         </div>
 
     </div>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4"
 	  xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
 
 <head th:replace="~{fragments/header :: header}">
@@ -34,10 +35,12 @@
             
             <hr>
 
-			<a href="/admin" >admin</a>
-			<ul>
-				<shiro:hasRole name="admin"><li>增加</li></shiro:hasRole>
-			</ul>
+
+
+			<a shiro:hasPermission="admin" href="/admin">
+				admin
+			</a>
+
 
 
         </div>

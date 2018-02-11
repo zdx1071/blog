@@ -1,5 +1,6 @@
 package com.gordon.blog.config;
 
+import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
 import org.apache.shiro.codec.Base64;
 import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
@@ -48,7 +49,7 @@ public class ShiroConfig {
         //用户访问未对其授权的资源时,所显示的连接
         shiroFilterFactoryBean.setUnauthorizedUrl("/403");
         //配置访问权限
-        Map<String,String> filterChainDefinitionMap = new LinkedHashMap<>();
+        Map<String, String> filterChainDefinitionMap = new LinkedHashMap<>();
         //配置记住我或认证通过可以访问的地址
         filterChainDefinitionMap.put("/userspace/*", "user");
         filterChainDefinitionMap.put("/admin", "user");
@@ -67,20 +68,29 @@ public class ShiroConfig {
         return shiroFilterFactoryBean;
     }
 
+    /**
+     * thymeleaf中使用shiro标签
+     *
+     * @return
+     */
+    @Bean
+    public ShiroDialect shiroDialect() {
+        return new ShiroDialect();
+    }
 
     //配置自定义的权限登录器
-    @Bean(name="myShiroRealm")
+    @Bean(name = "myShiroRealm")
     public MyShiroRealm authRealm(@Qualifier("credentialsMatcher") CredentialsMatcher matcher) {
-        MyShiroRealm myShiroRealm=new MyShiroRealm();
+        MyShiroRealm myShiroRealm = new MyShiroRealm();
         myShiroRealm.setCredentialsMatcher(matcher);
         return myShiroRealm;
     }
 
 
-    @Bean(name="securityManager")
-    public SecurityManager securityManager(@Qualifier("myShiroRealm") MyShiroRealm myShiroRealm){
+    @Bean(name = "securityManager")
+    public SecurityManager securityManager(@Qualifier("myShiroRealm") MyShiroRealm myShiroRealm) {
         System.err.println("--------------shiro已经加载----------------");
-        DefaultWebSecurityManager manager=new DefaultWebSecurityManager();
+        DefaultWebSecurityManager manager = new DefaultWebSecurityManager();
         manager.setRealm(myShiroRealm);
         //注入记住我管理器;
         manager.setRememberMeManager(rememberMeManager());
@@ -88,30 +98,32 @@ public class ShiroConfig {
     }
 
     //配置自定义的密码比较器
-    @Bean(name="credentialsMatcher")
+    @Bean(name = "credentialsMatcher")
     public CredentialsMatcher credentialsMatcher() {
         return new CredentialsMatcher();
     }
 
     @Bean
-    public LifecycleBeanPostProcessor lifecycleBeanPostProcessor(){
+    public LifecycleBeanPostProcessor lifecycleBeanPostProcessor() {
         return new LifecycleBeanPostProcessor();
     }
+
     @Bean
-    public DefaultAdvisorAutoProxyCreator defaultAdvisorAutoProxyCreator(){
-        DefaultAdvisorAutoProxyCreator creator=new DefaultAdvisorAutoProxyCreator();
+    public DefaultAdvisorAutoProxyCreator defaultAdvisorAutoProxyCreator() {
+        DefaultAdvisorAutoProxyCreator creator = new DefaultAdvisorAutoProxyCreator();
         creator.setProxyTargetClass(true);
         return creator;
     }
 
     /**
-     *  开启shiro aop注解支持.
-     *  使用代理方式;所以需要开启代码支持;
+     * 开启shiro aop注解支持.
+     * 使用代理方式;所以需要开启代码支持;
+     *
      * @param securityManager
      * @return
      */
     @Bean
-    public AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor(SecurityManager securityManager){
+    public AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor(SecurityManager securityManager) {
         AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor = new AuthorizationAttributeSourceAdvisor();
         authorizationAttributeSourceAdvisor.setSecurityManager(securityManager);
         return authorizationAttributeSourceAdvisor;
@@ -119,10 +131,11 @@ public class ShiroConfig {
 
     /**
      * cookie对象;
+     *
      * @return
      */
     @Bean
-    public SimpleCookie rememberMeCookie(){
+    public SimpleCookie rememberMeCookie() {
         //这个参数是cookie的名称，对应前端的checkbox的name = rememberMe
         SimpleCookie simpleCookie = new SimpleCookie("rememberMe");
         //<!-- 记住我cookie生效时间30天 ,单位秒;-->
@@ -132,16 +145,18 @@ public class ShiroConfig {
 
     /**
      * cookie管理对象;
+     *
      * @return
      */
     @Bean
-    public CookieRememberMeManager rememberMeManager(){
+    public CookieRememberMeManager rememberMeManager() {
         CookieRememberMeManager cookieRememberMeManager = new CookieRememberMeManager();
         cookieRememberMeManager.setCookie(rememberMeCookie());
         //rememberMe cookie加密的密钥 建议每个项目都不一样 默认AES算法 密钥长度(128 256 512 位)
         cookieRememberMeManager.setCipherKey(Base64.decode("2AvVhdsgUs0FSA3SDFAdag=="));
         return cookieRememberMeManager;
     }
+
 
 
 }

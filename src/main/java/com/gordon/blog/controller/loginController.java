@@ -39,11 +39,5 @@ public class loginController {
         }
     }
 
-    @RequestMapping("/logOut")
-    public String logOut(HttpSession session){
-        Subject subject = SecurityUtils.getSubject();
-        subject.logout();
-        session.removeAttribute("user");
-        return "login";
-    }
+
 }
