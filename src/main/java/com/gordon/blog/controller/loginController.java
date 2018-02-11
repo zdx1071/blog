@@ -26,8 +26,8 @@ public class loginController {
 
 
     @RequestMapping(method = RequestMethod.POST)
-    public String loginUser(String username,String password,Model model) throws Exception{
-        UsernamePasswordToken usernamePasswordToken=new UsernamePasswordToken(username,password);
+    public String loginUser(String username,String password,boolean rememberMe,Model model) throws Exception{
+        UsernamePasswordToken usernamePasswordToken=new UsernamePasswordToken(username,password,rememberMe);
         Subject subject = SecurityUtils.getSubject();
         try {
             subject.login(usernamePasswordToken);   //完成登录
