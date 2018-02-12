@@ -2,7 +2,9 @@ package com.gordon.blog.controller;
 
 import com.gordon.blog.entity.User;
 import com.gordon.blog.service.BlogService;
+import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
+import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -22,7 +24,10 @@ public class UserController {
     private BlogService blogService;
 
     @RequestMapping("/u")
-    public String userSpace(){
+    public String userSpace(Model model){
+        Subject subject = SecurityUtils.getSubject();
+        User user=(User) subject.getPrincipal();
+        model.addAttribute("user", user);
         return "userspace/u";
     }
 

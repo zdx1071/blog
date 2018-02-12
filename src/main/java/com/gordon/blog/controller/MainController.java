@@ -37,6 +37,11 @@ public class MainController {
         return "admin/background";
     }
 
+    @RequestMapping("/userspace/index")
+    public String index(){
+        return "userspace/index";
+    }
+
     @RequestMapping("/403")
     public String error403(){
         return "/error/403";
@@ -48,4 +53,5 @@ public class MainController {
         subject.logout();
         return "redirect:/";
     }
+
 }
