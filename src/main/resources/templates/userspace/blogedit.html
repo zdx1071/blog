@@ -10,6 +10,15 @@
     <!-- 实例化编辑器 -->
     <script type="text/javascript">
         var ue = UE.getEditor('container');
+        UE.Editor.prototype._bkGetActionUrl = UE.Editor.prototype.getActionUrl;
+        UE.Editor.prototype.getActionUrl = function(action) {
+            if (action == 'uploadimage' || action == 'uploadscrawl' || action == 'uploadimage') {
+                return '/imgUpdate'; //在这里返回我们实际的上传图片地址
+            } else {
+                return this._bkGetActionUrl.call(this, action);
+            }
+        }
+
     </script>
     <style id="alabel" type="text/css">
         #alabel a:link {
@@ -69,7 +78,6 @@
 <nav class="navbar navbar-light navbar-toggleable-sm navbar-static-top col-md-12 default" style="background-color: #604878;">
 
     <div class="container">
-        <!--响应式布局，待修改好看一些-->
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarsContainer" aria-controls="navbarsExampleContainer" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -135,7 +143,7 @@
    </div>
 <hr>
     <script id="container" name="content" type="text/plain" style="width:100%;height:600px;">
-        这里写你的初始化内容
+        <p style="color: #afafaf">这里写你的内容</p>
     </script>
 
 <br>
