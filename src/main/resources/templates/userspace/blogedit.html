@@ -3,7 +3,7 @@
       xmlns:shiro="http://www.pollix.at/thymeleaf/shiro"
       xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta  charset="UTF-8"/>
     <script type="text/javascript" charset="utf-8" src="../../js/ueditor/ueditor.config.js"></script>
     <script type="text/javascript" charset="utf-8" src="../../js/ueditor/ueditor.all.min.js"> </script>
     <script type="text/javascript" charset="utf-8" src="../../js/ueditor/lang/zh-cn/zh-cn.js"></script>
@@ -38,6 +38,7 @@
             text-decoration:none;
         }
     </style>
+
 
     <!-- Tether core CSS -->
     <link href="../../css/tether.min.css" th:href="@{/css/tether.min.css}" rel="stylesheet">
@@ -141,15 +142,22 @@
         <img th:src="${user.avatar} == null ? '/images/avatar-defualt.jpg' : ${user.avatar} " class="blog-avatar-50">
         <h2 th:text="${user.username}"></h2>
    </div>
-<hr>
-    <script id="container" name="content" type="text/plain" style="width:100%;height:600px;">
-        <p style="color: #afafaf">这里写你的内容</p>
-    </script>
 
+    <form th:action="@{/submitBlog}" method="post">
+        <input type="hidden" name="id" th:value="*{blogId}" id="blogId">
+        <input type="hidden" name="username" th:value="*{username}" id="username">
+        <input type="text" class="form-control" placeholder="请填写博客标题"  id="title" name="title"  th:value="*{title}"  maxlength="50">
+        <br>
+        <textarea class="blog-textarea" placeholder="请填写博客摘要"  id="summary" name="summary"  th:text="*{summary}" maxlength="300"></textarea>
+        <script id="container" name="content"  type="text/plain" style="width:100%;height:600px;">
+           <p style="color: #afafaf" >这里写你的内容</p>
+        </script>
+        <div class="pull-right">
+            <button class="submit" th:text="提交" ></button>
+            </div>
+    </form>
 <br>
-    <div class="pull-right">
-        <button  th:text="提交" ></button>
-        </div>
+
 
 
 <br><br>

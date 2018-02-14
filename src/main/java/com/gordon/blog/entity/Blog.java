@@ -15,7 +15,7 @@ public class Blog implements Serializable{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long blogId;
 
     private String title;
 
@@ -78,7 +78,7 @@ public class Blog implements Serializable{
 
 
     @OneToOne(cascade = CascadeType.DETACH, fetch = FetchType.LAZY)
-    @JoinColumn(name="user_id")
+    @JoinColumn(name="user_uid")
     private User user;
 
     @Column(nullable = false)
@@ -94,12 +94,12 @@ public class Blog implements Serializable{
         this.content = content;
     }
 
-    public Long getId() {
-        return id;
+    public Long getBlogId() {
+        return blogId;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setBlogId(Long id) {
+        this.blogId = id;
     }
 
     public String getTitle() {
