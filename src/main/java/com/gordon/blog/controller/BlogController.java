@@ -88,47 +88,46 @@ public class BlogController {
         return "index";
     }
 
+    /**
+     * 新建博客页面
+     * @param model
+     * @return
+     */
     @RequestMapping("/blogedit")
     public String blogEdit(Model model){
         Subject subject = SecurityUtils.getSubject();
         User user=(User) subject.getPrincipal();
+        List<Catalog> catalogs = catalogService.findAll();
+        Long uid = user.getUid();
+
+        model.addAttribute("uid", uid);
         model.addAttribute("user", user);
+        model.addAttribute("blog", new Blog(null, null, null));
+        model.addAttribute("catalogs", catalogs);
         return "/userspace/blogedit";
     }
 
 
-    @RequestMapping(value = "/submitBlog",method = RequestMethod.POST,consumes="application/x-www-form-urlencoded")
+    /**
+     * 保存博客
+     * @return
+     */
+    @RequestMapping(value = "/saveBlog",method = RequestMethod.POST)
     @ResponseBody
-    public  String submitBlog(@RequestParam("username") String username,
-                             @RequestBody Blog blog){
-        String msg = null;
-        // 对 Catalog 进行空处理
-        if (blog.getCatalog() == null) {
-            msg = "未选择分类";
-            return msg;
+    public  String saveBlog(@RequestBody Blog blog){
+        if (blog.getBlogId()!=null) {
+            Blog orignalBlog = blogService.getBlogById(blog.getBlogId());
+            orignalBlog.setTitle(blog.getTitle());
+            orignalBlog.setContent(blog.getContent());
+            orignalBlog.setSummary(blog.getSummary());
+            blogService.saveBlog(orignalBlog);
+        } else {
+            Subject subject = SecurityUtils.getSubject();
+            User user=(User) subject.getPrincipal();
+            blog.setUser(user);
+            blogService.saveBlog(blog);
         }
-        try {
-            // 判断是修改还是新增
-            if (blog.getBlogId()!=null) {
-                Blog orignalBlog = blogService.getBlogById(blog.getBlogId());
-                orignalBlog.setTitle(blog.getTitle());
-                orignalBlog.setContent(blog.getContent());
-                orignalBlog.setSummary(blog.getSummary());
-                orignalBlog.setCatalog(blog.getCatalog());
-                blogService.saveBlog(orignalBlog);
-            } else {
-                User user = (User)userService.findByUsername(username);
-                blog.setUser(user);
-                blogService.saveBlog(blog);
-            }
-        } catch (Exception e) {
-            msg = "保存失败";
-            return msg;
-        }
-        /*String redirectUrl = "/";*/
-        msg = "保存成功";
-        return "redirect:/";
-
+        return null;
     }
 
 }

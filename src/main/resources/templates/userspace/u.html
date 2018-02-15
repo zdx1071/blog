@@ -36,13 +36,14 @@
             <hr>
 
 
-
-			<a shiro:hasPermission="admin" href="/admin">
-				admin
+			<br>
+			<a shiro:hasPermission="admin" >
+				管理分类
 			</a>
-
-			<a shiro:hasPermission="admin" href="/userspace/index">
-				index
+			<br>
+			<br>
+			<a shiro:hasPermission="admin" th:href="profile">
+				用户设置
 			</a>
 
         </div>
@@ -55,52 +56,31 @@
         <div class="col-md-8 col-xl-9">
             <!-- 工具栏 -->
  
-            <ul class="nav nav-tabs mr-auto">
 
-                <li class="nav-item">
-                    <a class="nav-link " data-th-classappend="${order} eq 'new' ? 'active' : ''" href="javascript:void(0)" th:attr="url='/u/'+${user.username}+'/blogs?order=new'">最新</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" data-th-classappend="${order} eq 'hot' ? 'active' : ''" href="javascript:void(0)" th:attr="url='/u/'+${user.username}+'/blogs?order=hot'">最热</a>
-                </li>
-
-                <form class="form-inline mt-2 mt-md-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="搜索" id="keyword" th:value="${keyword}">
-                    <a href="javascript:void(0)" class="btn btn-outline-secondary my-2 my-sm-0" id="searchBlogs">
-						<i class="fa fa-search" aria-hidden="true"></i></a>
-                </form>
-
-
-            </ul>
-
-
-
-            <!-- Blog Post -->
-            <div id="mainContainer">
-                <div id="mainContainerRepleace">
-					<div class="card mb-4" th:each="blog : ${blogList}">
-						<div class="card-block">
-							<h2 class="card-title">
+				<!-- Blog Post -->
+				<div id="mainContainer">
+					<div id="mainContainerRepleace">
+						<div class="card mb-4" th:each="blog : ${blogList}">
+							<div class="card-block">
+								<h2 class="card-title">
 		                 		<span>
 				                  <a th:href="'/u/' + ${blog.user.username}"  th:title="${blog.user.username}">
 				                    <img src="/images/avatar-defualt.jpg" th:src="${blog.user.avatar} == null ? '/images/avatar-defualt.jpg' : ${blog.avatar}"  class="blog-avatar-50">
 				                  </a>
 						        </span>
-								<a  class="card-link" th:href="'/u/' + ${blog.user.username} + '/blogs/'+ ${blog.id}"  th:title="${blog.title}" th:text="${blog.title}"></a>
-							</h2>
-							<p class="card-text" th:text="${blog.summary}"></p>
-							<div class="card-text">
-								<a th:href="'/u/' + ${blog.user.username}" class="card-link" th:text="${blog.user.username}"></a>
-								发表于 [[${#dates.format(blog.publishTime, 'yyyy-MM-dd HH:mm')}]]
-								<i class="fa fa-eye" aria-hidden="true" th:text="${blog.readSize}"></i>
-								<i class="fa fa-heart-o" aria-hidden="true" th:text="${blog.voteSize}"></i>
-								<i class="fa fa-comment-o" aria-hidden="true" th:text="${blog.commentSize}"></i>
+									<a  class="card-link" th:href="'/u/' + ${blog.user.username} + '/blogs/'+ ${blog.blogId}"  th:title="${blog.title}" th:text="${blog.title}"></a>
+								</h2>
+								<p class="card-text" th:text="${blog.summary}"></p>
+								<div class="card-text">
+									<a th:href="'/u/' + ${blog.user.username}" class="card-link" th:text="${blog.user.username}"></a>
+									发表于 [[${#dates.format(blog.publishTime, 'yyyy-MM-dd HH:mm')}]]
+									<i class="fa fa-eye" aria-hidden="true" th:text="${blog.readSize}"></i>
+									<i class="fa fa-heart-o" aria-hidden="true" th:text="${blog.voteSize}"></i>
+									<i class="fa fa-comment-o" aria-hidden="true" th:text="${blog.commentSize}"></i>
+								</div>
 							</div>
 						</div>
-					</div>
-	 
-		           <!-- <div th:replace="~{fragments/page :: page}">...</div>-->
+						<!--<div th:replace="~{fragments/page :: page}">...</div>-->
 	            </div>
             </div>
 
@@ -111,27 +91,7 @@
 </div>
 <!-- /.container -->
 
-<!-- The modal -->
-<div class="modal fade" id="flipFlop" tabindex="-1" role="dialog"
-	aria-labelledby="modalLabel" aria-hidden="true">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h4 class="modal-title" id="modalLabel">新增/编辑</h4>
-				<button type="button" class="close" data-dismiss="modal"
-					aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
 
-			</div>
-			<div class="modal-body" id="catalogFormContainer"></div>
-			<div class="modal-footer">
-				<button class="btn btn-primary" data-dismiss="modal" id="submitEditCatalog">提交</button>
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
 
 <div th:replace="~{fragments/footer :: footer}">...</div>
 

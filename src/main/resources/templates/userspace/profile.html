@@ -18,8 +18,8 @@
                     <span>
                     <a class="blog-edit-avatar" data-toggle="modal"
 								data-target="#flipFlop" role="button"
-								data-th-attr="userName=${userModel.user.username}">  
-								<img th:src="${userModel.user.avatar} == null ? '/images/avatar-defualt.jpg' : ${userModel.user.avatar}" class="blog-avatar blog-avatar-230">
+								data-th-attr="userName=${user.username}">
+								<img th:src="${user.avatar} == null ? '/images/avatar-defualt.jpg' : ${user.avatar}" class="blog-avatar blog-avatar-230">
       
 							</a>
  
@@ -45,8 +45,8 @@
             <div class="card ">
  				<h5 class="card-header"><i class="fa fa-cog" aria-hidden="true"></i> 个人设置</h5>
                     <div class="card-block">
-						<form th:action="'/u/'+${userModel.user.username}+'/profile'" method="post" th:object="${userModel.user}" id="userForm">
-							<input type="hidden" name="id" id="userId" th:value="*{id}" >
+						<form th:action="'/u/'+${user.username}+'/profile'" method="post" th:object="${user}" id="userForm">
+							<input type="hidden" name="id" id="userId" th:value="*{uid}" >
 							
 							<div class="form-group ">
 								<label for="username" class="col-form-label">账号</label>

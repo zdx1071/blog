@@ -47,4 +47,11 @@ public class BlogServiceImpl implements BlogService {
         page = blogRepository.findByCatalogId(catalogId,pageable);
         return page;
     }
+
+    @Override
+    public Page<Blog> listBlogsByUserId(Long uid, Pageable pageable) {
+        Page<Blog> page = null;
+        page = blogRepository.findByUserUid(uid,pageable);
+        return page;
+    }
 }

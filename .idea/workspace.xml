@@ -1,13 +1,297 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd205ffb-ea25-4748-a98a-05f460ce7ae0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/index.html" afterPath="" />
+    <list default="true" id="bd205ffb-ea25-4748-a98a-05f460ce7ae0" name="Default" comment="UEditor感觉不是很必要，试试其他的">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/config/MyWebAppConfigurer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/UploadController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/anchor/anchor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/attachment.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/attachment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/attachment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/images/alignicon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/images/alignicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/images/file-icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/images/file-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/images/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/images/progress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/images/success.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/attachment/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/background/background.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/background/background.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/background/background.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/background/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/background/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/charts/chart.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/charts/charts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/charts/charts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/charts/charts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/charts/images/charts0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/charts/images/charts1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/charts/images/charts2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/charts/images/charts3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/charts/images/charts4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/charts/images/charts5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/emotion/emotion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/emotion/emotion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/emotion/emotion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/emotion/images/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/emotion/images/bface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/emotion/images/cface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/emotion/images/fface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/emotion/images/jxface2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/emotion/images/tface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/emotion/images/wface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/emotion/images/yface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/gmap/gmap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/help/help.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/help/help.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/help/help.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/image/image.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/image/image.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/image/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/image/images/alignicon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/image/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/image/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/image/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/image/images/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/image/images/progress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/image/images/success.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/image/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/insertframe/insertframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/internal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/link/link.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/map/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/map/show.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/music/music.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/music/music.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/music/music.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/preview/preview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/scrawl/images/addimg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/scrawl/images/brush.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/scrawl/images/delimg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/scrawl/images/delimgH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/scrawl/images/empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/scrawl/images/emptyH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/scrawl/images/eraser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/scrawl/images/redo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/scrawl/images/redoH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/scrawl/images/scale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/scrawl/images/scaleH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/scrawl/images/size.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/scrawl/images/undo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/scrawl/images/undoH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/scrawl/scrawl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/scrawl/scrawl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/scrawl/scrawl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/searchreplace/searchreplace.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/searchreplace/searchreplace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/snapscreen/snapscreen.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/spechars/spechars.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/spechars/spechars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/table/dragicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/table/edittable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/table/edittable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/table/edittable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/table/edittd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/table/edittip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/template/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/template/images/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/template/images/pre0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/template/images/pre1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/template/images/pre2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/template/images/pre3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/template/images/pre4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/template/template.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/template/template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/template/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/video/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/video/images/center_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/video/images/file-icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/video/images/file-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/video/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/video/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/video/images/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/video/images/left_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/video/images/none_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/video/images/progress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/video/images/right_focus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/video/images/success.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/video/images/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/video/video.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/video/video.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/video/video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/webapp/webapp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/wordimage/imageUploader.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/wordimage/tangram.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/wordimage/wordimage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/dialogs/wordimage/wordimage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/jsp/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/jsp/controller.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/jsp/lib/commons-codec-1.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/jsp/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/jsp/lib/commons-io-2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/jsp/lib/json.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/jsp/lib/ueditor-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/en/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/en/images/addimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/en/images/alldeletebtnupskin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/en/images/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/en/images/button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/en/images/copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/en/images/deletedisable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/en/images/deleteenable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/en/images/listbackground.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/en/images/localimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/en/images/music.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/en/images/rotateleftdisable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/en/images/rotateleftenable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/en/images/rotaterightdisable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/en/images/rotaterightenable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/en/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/zh-cn/images/copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/zh-cn/images/localimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/zh-cn/images/music.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/zh-cn/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/lang/zh-cn/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/css/ueditor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/css/ueditor.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/dialogbase.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/arrow_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/arrow_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/button-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/cancelbutton.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/charts.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/cursor_h.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/cursor_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/cursor_v.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/cursor_v.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/dialog-title-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/filescan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/highlighted.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/icons-all.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/loaderror.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/lock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/neweditor-tab-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/pagebreak.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/scale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/sortable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/sparator_v.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/table-cell-align.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/tangram-colorpicker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/toolbar_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/unhighlighted.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/videologo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/word.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/default/images/wordpaste.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/themes/iframe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/SyntaxHighlighter/shCore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/codemirror/codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/codemirror/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/highcharts-more.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/highcharts-more.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/highcharts.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/annotations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/annotations.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/canvas-tools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/data.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/drilldown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/drilldown.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/exporting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/exporting.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/funnel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/funnel.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/heatmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/heatmap.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/map.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/themes/dark-blue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/themes/dark-green.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/themes/gray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/themes/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/highcharts/themes/skies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/jquery-1.10.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/jquery-1.10.2.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/video-js/font/vjs.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/video-js/font/vjs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/video-js/font/vjs.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/video-js/font/vjs.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/video-js/video-js.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/video-js/video-js.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/video-js/video-js.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/video-js/video.dev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/video-js/video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/webuploader/Uploader.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/webuploader/webuploader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/webuploader/webuploader.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/webuploader/webuploader.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/webuploader/webuploader.flashonly.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/webuploader/webuploader.html5only.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/webuploader/webuploader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/webuploader/webuploader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/xss.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/ueditor.all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/ueditor.all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/ueditor.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/ueditor.parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/ueditor.parse.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../blog/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/BlogController.java" afterPath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/BlogController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/UserController.java" afterPath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/dao/BlogRepository.java" afterPath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/dao/BlogRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/entity/Blog.java" afterPath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/entity/Blog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/../blog/src/main/resources/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/BlogService.java" afterPath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/BlogService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/impl/BlogServiceImpl.java" afterPath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/impl/BlogServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/blogedit.html" afterPath="$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/blogedit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/profile.html" afterPath="$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/u.html" afterPath="$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/u.html" />
     </list>
     <ignored path="$PROJECT_DIR$/../blog/out/" />
     <ignored path="$PROJECT_DIR$/../blog/target/" />
@@ -34,34 +318,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="blogedit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/blogedit.html">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="439">
+              <caret line="44" column="48" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="44" selection-end-column="48" />
               <folding>
-                <element signature="n#style#0;n#script#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#script#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/BlogController.java">
+      <file leaf-file-name="blogedit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/blogedit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="122" column="13" lean-forward="true" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="209">
+              <caret line="29" column="64" lean-forward="false" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -70,74 +343,77 @@
       <file leaf-file-name="Blog.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/entity/Blog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../blog/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1868">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UploadController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/UploadController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+            <state relative-caret-position="209">
+              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2525#2526#0" expanded="true" />
+                <element signature="e#2552#2553#0" expanded="true" />
+                <element signature="e#2590#2591#0" expanded="true" />
+                <element signature="e#2622#2623#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/application.yml">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="-1132">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../blog/src/test/java/FileTest.java">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="364">
+              <caret line="39" column="94" lean-forward="true" selection-start-line="39" selection-start-column="94" selection-end-line="39" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-257">
+              <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyWebAppConfigurer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/config/MyWebAppConfigurer.java">
+      <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/BlogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="15" column="97" lean-forward="false" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="97" />
+            <state relative-caret-position="9">
+              <caret line="118" column="73" lean-forward="true" selection-start-line="118" selection-start-column="73" selection-end-line="118" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlogRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/dao/BlogRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blogedit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/static/js/userspace/blogedit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="86" column="14" lean-forward="true" selection-start-line="84" selection-start-column="12" selection-end-line="86" selection-end-column="14" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,6 +441,9 @@
       <find>config.filebrowserImageUploadUr</find>
       <find>config.filebrowserImageUploadUrl</find>
       <find>location</find>
+      <find>toast</find>
+      <find>uid</find>
+      <find>username</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -174,9 +453,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../blog" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../blog" value="master" />
+        <entry key="$PROJECT_DIR$/../blog" value="UEditor" />
       </map>
     </option>
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -186,13 +466,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/dao/CatalogRepository.java" />
-        <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/CatalogController.java" />
-        <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/CatalogService.java" />
-        <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/impl/CatalogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/dao/BlogRepository.java" />
         <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/entity/Catalog.java" />
-        <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/impl/BlogServiceImpl.java" />
         <option value="$PROJECT_DIR$/../blog/src/main/resources/static/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/entity/Role.java" />
         <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/entity/Permission.java" />
@@ -211,19 +485,13 @@
         <option value="$PROJECT_DIR$/../blog/src/main/resources/templates/admin/background.html" />
         <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/config/ShiroDialectConfig.java" />
         <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/loginController.java" />
-        <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/BlogService.java" />
-        <option value="$PROJECT_DIR$/../blog/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/FilesController.java" />
         <option value="$PROJECT_DIR$/../blog/src/main/resources/static/ckeditor/config.js" />
         <option value="$PROJECT_DIR$/../blog/src/main/resources/static/ckfinder.xml" />
         <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/config/WebMvcConfig.java" />
         <option value="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/index.html" />
         <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/config/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/UserController.java" />
         <option value="$PROJECT_DIR$/../blog/src/main/resources/templates/admin/index.html" />
-        <option value="$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/u.html" />
-        <option value="$PROJECT_DIR$/../blog/src/main/resources/templates/fragments/header.html" />
-        <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/MainController.java" />
         <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/UEditorController.java" />
         <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/config/WebResourceConfig.java" />
         <option value="$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/ueditor.config.js" />
@@ -232,10 +500,22 @@
         <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/config/MyWebAppConfigurer.java" />
         <option value="$PROJECT_DIR$/../blog/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/../blog/src/test/java/FileTest.java" />
+        <option value="$PROJECT_DIR$/../blog/src/main/resources/static/css/zdx.css" />
+        <option value="$PROJECT_DIR$/../blog/src/main/resources/templates/fragments/header.html" />
+        <option value="$PROJECT_DIR$/../blog/src/main/resources/static/js/catalog-generator.js" />
+        <option value="$PROJECT_DIR$/../blog/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/BlogService.java" />
+        <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/impl/BlogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/profile.html" />
+        <option value="$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/u.html" />
+        <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/../blog/src/main/resources/static/js/userspace/blogedit.js" />
         <option value="$PROJECT_DIR$/../blog/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/entity/Blog.java" />
         <option value="$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/blogedit.html" />
+        <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/entity/Blog.java" />
+        <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/dao/BlogRepository.java" />
         <option value="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/BlogController.java" />
       </list>
     </option>
@@ -450,7 +730,7 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="ueditor" type="462c0819:PsiDirectoryNode" />
+              <item name="userspace" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -468,6 +748,24 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="fragments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -512,15 +810,15 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\blog\src\main\resources\templates\userspace" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\blog\src\main\resources\static\css" />
       <recent name="C:\blog\src\main\resources\static" />
       <recent name="C:\blog\src\main\resources\templates\admin" />
       <recent name="C:\blog\src\main\resources\static\js\ueditor" />
       <recent name="C:\blog\src\main\resources\public" />
-      <recent name="C:\blog\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\blog\src\main\resources\templates\userspace" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -822,7 +1120,7 @@
       <workItem from="1518345346229" duration="27640000" />
       <workItem from="1518431400060" duration="33184000" />
       <workItem from="1518524185733" duration="7047000" />
-      <workItem from="1518572361816" duration="7914000" />
+      <workItem from="1518572361816" duration="36512000" />
     </task>
     <task id="LOCAL-00001" summary="2018年2月10日">
       <created>1518258140483</created>
@@ -873,7 +1171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518531587605</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="UEditor感觉不是很必要，试试其他的">
+      <created>1518596536917</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1518596536917</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -885,7 +1190,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171811000" />
+    <option name="totallyTimeSpent" value="200409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -908,15 +1213,16 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32397407" sideWeight="0.5" order="12" side_tool="false" content_ui="combo" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.475162" sideWeight="0.5" order="12" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4298056" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17929563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22145145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -924,7 +1230,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -963,6 +1268,42 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -974,105 +1315,20 @@
     <MESSAGE value="2018年2月11日 23点29分 登出 几个页面跳转" />
     <MESSAGE value="2018年2月12日 23点23分 富文本编辑器" />
     <MESSAGE value="2018年2月13日 22点16分 千辛万苦完成集成UEditor 和图片上传和多图上传，上传回显真麻烦" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018年2月13日 22点16分 千辛万苦完成集成UEditor 和图片上传和多图上传，上传回显真麻烦" />
+    <MESSAGE value="UEditor感觉不是很必要，试试其他的" />
+    <option name="LAST_COMMIT_MESSAGE" value="UEditor感觉不是很必要，试试其他的" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="25" />
+      <option name="time" value="28" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((BlogServiceImpl)blogService).blogRepository" custom="com.gordon.blog.service.impl.BlogServiceImpl" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.12.RELEASE/spring-webmvc-4.3.12.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="476" column="0" lean-forward="false" selection-start-line="476" selection-start-column="0" selection-end-line="476" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.12.RELEASE/spring-webmvc-4.3.12.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="465" column="0" lean-forward="false" selection-start-line="465" selection-start-column="0" selection-end-line="465" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.12.RELEASE/spring-webmvc-4.3.12.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/admin/background.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/config/ShiroDialectConfig.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/theborakompanioni/thymeleaf-extras-shiro/1.2.1/thymeleaf-extras-shiro-1.2.1.jar!/at/pollux/thymeleaf/shiro/dialect/ShiroDialect.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/theborakompanioni/thymeleaf-extras-shiro/1.2.1/thymeleaf-extras-shiro-1.2.1-sources.jar!/at/pollux/thymeleaf/shiro/dialect/ShiroDialect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/CatalogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/BlogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/static/ckeditor5-build-inline/README.md" />
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/static/ckeditor5-build-inline/ckeditor.js" />
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/static/ckeditor/lang/af.js" />
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/config/CredentialsMatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/config/MyShiroRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/static/ckeditor/config.js" />
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/static/ckfinder.xml" />
     <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/FilesController.java" />
     <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/config/WebMvcConfig.java" />
     <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/ueditor.all.js">
@@ -1117,53 +1373,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/loginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/static/js/ueditor/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding>
-            <element signature="e#955#956#0" expanded="false" />
-            <element signature="e#995#996#0" expanded="false" />
-            <element signature="e#1054#1055#0" expanded="false" />
-            <element signature="e#1089#1090#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/fragments/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="46" column="80" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="46" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/u.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1193,22 +1406,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/config/MyWebAppConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" column="97" lean-forward="false" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../blog/src/test/java/FileTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1221,60 +1424,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/UploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4200">
           <caret line="168" column="5" lean-forward="false" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/entity/Blog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="37" column="51" lean-forward="true" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/impl/BlogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1287,21 +1440,269 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/static/css/zdx.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="381" column="1" lean-forward="true" selection-start-line="381" selection-start-column="1" selection-end-line="381" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/fragments/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-411">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/fragments/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2700">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/error/403.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/fragments/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/avatar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2250">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/config/CredentialsMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/admin/background.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/static/js/userspace/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/dao/CatalogRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/static/js/catalog-generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/config/MyWebAppConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" column="97" lean-forward="false" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/BlogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/catalogedit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/users/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/loginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="34" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="47" column="109" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/u.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/static/js/userspace/blogedit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="86" column="14" lean-forward="true" selection-start-line="84" selection-start-column="12" selection-end-line="86" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="39" column="94" lean-forward="true" selection-start-line="39" selection-start-column="94" selection-end-line="39" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="44" column="48" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="44" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/blogedit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="209">
+          <caret line="29" column="64" lean-forward="false" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/entity/Blog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#script#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#script#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2525#2526#0" expanded="true" />
+            <element signature="e#2552#2553#0" expanded="true" />
+            <element signature="e#2590#2591#0" expanded="true" />
+            <element signature="e#2622#2623#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1132">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-257">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="e#690#691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/impl/BlogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/dao/BlogRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/BlogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="122" column="13" lean-forward="true" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
+        <state relative-caret-position="9">
+          <caret line="118" column="73" lean-forward="true" selection-start-line="118" selection-start-column="73" selection-end-line="118" selection-end-column="73" />
           <folding />
         </state>
       </provider>

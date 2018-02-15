@@ -1,6 +1,9 @@
 package com.gordon.blog.entity;
 
 
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.subject.Subject;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.sql.Timestamp;
@@ -76,7 +79,6 @@ public class Blog implements Serializable{
     }
 
 
-
     @OneToOne(cascade = CascadeType.DETACH, fetch = FetchType.LAZY)
     @JoinColumn(name="user_uid")
     private User user;
@@ -93,6 +95,8 @@ public class Blog implements Serializable{
         this.summary = summary;
         this.content = content;
     }
+
+
 
     public Long getBlogId() {
         return blogId;
@@ -132,6 +136,12 @@ public class Blog implements Serializable{
 
     public void setUser(User user) {
         this.user = user;
+    }
+
+    public Long getUid(){
+        Subject subject = SecurityUtils.getSubject();
+        User user=(User) subject.getPrincipal();
+        return user.getUid();
     }
 
     public Timestamp getPublishTime() {

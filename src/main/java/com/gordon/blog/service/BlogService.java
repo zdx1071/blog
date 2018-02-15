@@ -20,7 +20,7 @@ public interface BlogService {
 
     Page<Blog> listBlogsByCatalog(int catalogId,Pageable pageable);
 
-    //Page<Blog> listBlogsByUser(User user, Pageable pageable);
+    Page<Blog> listBlogsByUserId(Long uid, Pageable pageable);
 
 
 
