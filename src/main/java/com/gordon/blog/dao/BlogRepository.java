@@ -11,7 +11,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface BlogRepository extends JpaRepository<Blog,Long>{
 
 
-    Page<Blog> findByCatalogId(int catalogId, Pageable pageable);
+    Page<Blog> findByCatalogId(Long catalogId, Pageable pageable);
 
     Page<Blog> findByUserUid(Long userUid, Pageable pageable);
 

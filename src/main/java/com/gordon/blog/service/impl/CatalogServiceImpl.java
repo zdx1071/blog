@@ -23,4 +23,6 @@ public class CatalogServiceImpl implements CatalogService{
     public List<Catalog> findAll() {
         return catalogRepository.findAll();
     }
+
+
 }

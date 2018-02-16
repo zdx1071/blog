@@ -18,7 +18,7 @@ public interface BlogService {
 
     Page<Blog> listBlogs(Pageable pageable);
 
-    Page<Blog> listBlogsByCatalog(int catalogId,Pageable pageable);
+    Page<Blog> listBlogsByCatalog(Long catalogId,Pageable pageable);
 
     Page<Blog> listBlogsByUserId(Long uid, Pageable pageable);
 

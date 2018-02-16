@@ -41,7 +41,7 @@ public class Blog implements Serializable{
     }
 
     public void setCatalog(Catalog catalog) {
-        catalog = catalog;
+        this.catalog = catalog;
     }
 
     private String tags;

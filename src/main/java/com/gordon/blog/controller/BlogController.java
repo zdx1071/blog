@@ -66,7 +66,7 @@ public class BlogController {
     }
 
     @RequestMapping("/blogs/catalogId/{id}")
-    public String listBlogsByCatalog(@PathVariable("id") int catalogId,
+    public String listBlogsByCatalog(@PathVariable("id") Long catalogId,
                                      @RequestParam(value = "pageIndex",required = false,defaultValue = "0") int pageIndex,
                                      @RequestParam(value = "pageSize",required = false,defaultValue = "10") int pageSize,
                                      Model model)
@@ -114,16 +114,18 @@ public class BlogController {
      */
     @RequestMapping(value = "/saveBlog",method = RequestMethod.POST)
     @ResponseBody
-    public  String saveBlog(@RequestBody Blog blog){
-        if (blog.getBlogId()!=null) {
+    public  String saveBlog(@RequestBody Blog blog) {
+        blog.getCatalog();
+        if (blog.getBlogId() != null) {
             Blog orignalBlog = blogService.getBlogById(blog.getBlogId());
             orignalBlog.setTitle(blog.getTitle());
             orignalBlog.setContent(blog.getContent());
             orignalBlog.setSummary(blog.getSummary());
+            orignalBlog.setCatalog(blog.getCatalog());
             blogService.saveBlog(orignalBlog);
         } else {
             Subject subject = SecurityUtils.getSubject();
-            User user=(User) subject.getPrincipal();
+            User user = (User) subject.getPrincipal();
             blog.setUser(user);
             blogService.saveBlog(blog);
         }

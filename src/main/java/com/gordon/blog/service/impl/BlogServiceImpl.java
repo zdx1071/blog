@@ -42,7 +42,7 @@ public class BlogServiceImpl implements BlogService {
     }
 
     @Override
-    public Page<Blog> listBlogsByCatalog(int catalogId, Pageable pageable) {
+    public Page<Blog> listBlogsByCatalog(Long catalogId, Pageable pageable) {
         Page<Blog> page = null;
         page = blogRepository.findByCatalogId(catalogId,pageable);
         return page;
