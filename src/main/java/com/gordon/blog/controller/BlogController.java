@@ -129,7 +129,7 @@ public class BlogController {
             blog.setUser(user);
             blogService.saveBlog(blog);
         }
-        return null;
+        return "success";
     }
 
 }

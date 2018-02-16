@@ -111,19 +111,21 @@
                 "summary": $('#summary').val() ,
                 "content": $('#md').val(),
                 "catalog":{"id": $('#catalogSelect').val()}
-            })/*,
+            }),
             success: function(data){
-                if (data.success) {
+                //if (data.success) {
                     // 成功后，重定向
-                    window.location = data.body;
-                } else {
-                    toastr.error("error!"+data.msg);
-                }
+                    toastr.success("success");
+
+                    window.location.href = "/userspace/u";
+               // } else {
+                    //toastr.error("error22!");
+                //}
 
             },
             error : function() {
-                toastr.error("error!");
-            }*/
+                toastr.error("error13!");
+            }
         })
     })
 </script>

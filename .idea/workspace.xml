@@ -4,12 +4,6 @@
     <list default="true" id="bd205ffb-ea25-4748-a98a-05f460ce7ae0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../blog/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/BlogController.java" afterPath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/BlogController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/dao/BlogRepository.java" afterPath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/dao/BlogRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/entity/Blog.java" afterPath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/entity/Blog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/entity/Catalog.java" afterPath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/entity/Catalog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/BlogService.java" afterPath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/BlogService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/impl/BlogServiceImpl.java" afterPath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/impl/BlogServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/impl/CatalogServiceImpl.java" afterPath="$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/impl/CatalogServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/blogedit.html" afterPath="$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/blogedit.html" />
     </list>
     <ignored path="$PROJECT_DIR$/../blog/out/" />
@@ -40,8 +34,8 @@
       <file leaf-file-name="blogedit.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/blogedit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="116" column="30" lean-forward="true" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
+            <state relative-caret-position="240">
+              <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,48 +64,8 @@
       <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/BlogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-311">
-              <caret line="71" column="49" lean-forward="true" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/impl/BlogServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/BlogService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Catalog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/entity/Catalog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/dao/BlogRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="-135">
+              <caret line="112" column="14" lean-forward="true" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -821,7 +775,7 @@
       <workItem from="1518431400060" duration="33184000" />
       <workItem from="1518524185733" duration="7047000" />
       <workItem from="1518572361816" duration="36560000" />
-      <workItem from="1518743548501" duration="8096000" />
+      <workItem from="1518743548501" duration="13136000" />
     </task>
     <task id="LOCAL-00001" summary="2018年2月10日">
       <created>1518258140483</created>
@@ -886,7 +840,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518695706434</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2/16 发表文章分类">
+      <created>1518752432924</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1518752432924</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -898,7 +859,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208553000" />
+    <option name="totallyTimeSpent" value="213593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1025,19 +986,13 @@
     <MESSAGE value="2018年2月13日 22点16分 千辛万苦完成集成UEditor 和图片上传和多图上传，上传回显真麻烦" />
     <MESSAGE value="UEditor感觉不是很必要，试试其他的" />
     <MESSAGE value="2/15" />
-    <option name="LAST_COMMIT_MESSAGE" value="2/15" />
+    <MESSAGE value="2/16 发表文章分类" />
+    <MESSAGE value="2/16 保存文章跳转" />
+    <option name="LAST_COMMIT_MESSAGE" value="2/16 保存文章跳转" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/BlogController.java</url>
-          <line>117</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -1322,14 +1277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/dao/BlogRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/BlogService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1340,24 +1287,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/service/impl/BlogServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
+        <state relative-caret-position="65">
           <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/dao/BlogRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../blog/src/main/java/com/gordon/blog/controller/BlogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-311">
-          <caret line="71" column="49" lean-forward="true" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
+        <state relative-caret-position="-135">
+          <caret line="112" column="14" lean-forward="true" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../blog/src/main/resources/templates/userspace/blogedit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="116" column="30" lean-forward="true" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
+        <state relative-caret-position="240">
+          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
           <folding />
         </state>
       </provider>
