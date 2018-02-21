@@ -32,12 +32,12 @@ public class User implements Serializable{
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "SysUserRole",joinColumns = {@JoinColumn(name = "uid")},
             inverseJoinColumns = {@JoinColumn(name = "roleId")})
-    private List<SysRole> roleList;    //
+    private List<SysRole> roleList;
 
     protected User() {
     }
 
-    public User(String name, String email, String username, String password) {
+    public User(String username,String email, String name, String password) {
         this.name = name;
         this.email = email;
         this.username = username;

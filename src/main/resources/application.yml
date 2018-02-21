@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 9090
 debug: true
 #thymeleaf
 spring:
@@ -11,7 +11,7 @@ spring:
   mvc:
     static-path-pattern: /**
   resources:
-      static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/uploads/,file:${web.upload-path}
+      static-locations: classpath:/resources/templates/,classpath:/resources/,classpath:/static/,classpath:/uploads/,file:${web.upload-path}
   #DataSource
   datasource:
     url: jdbc:mysql://localhost/blog?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC

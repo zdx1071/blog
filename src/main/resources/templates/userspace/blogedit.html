@@ -21,7 +21,7 @@
     <div class="row">
 
         <!-- Blog Entries Column -->
-        <div class="col-md-8">
+        <div class="col-md-12">
 
             <!-- Blog Post -->
             <div class="card mb-4">
@@ -33,7 +33,7 @@
                     <textarea class="blog-textarea" placeholder="请填写博客摘要"  id="summary" name="summary"  th:text="*{summary}" maxlength="300"></textarea>
 
                     <hr>
-                    <textarea id="md" data-provide="markdown" data-hidden-buttons="cmdImage" name="content"  th:text="*{content}"></textarea>
+                    <textarea id="md" data-provide="markdown"  name="content"  th:text="*{content}"></textarea>
 
                     <hr>
                 </div>
@@ -66,7 +66,7 @@
             </div>
             <!-- 图片上传 -->
             <div class="card ">
-                <h5 class="card-header"><i class="fa fa-cog" aria-hidden="true"></i> 博客设置</h5>
+                <h5 class="card-header"><i class="fa fa-indent" aria-hidden="true"></i> 分类设置</h5>
                 <div class="card-block">
 
                    <div class="row mt-1">
@@ -99,8 +99,18 @@
 
 <div th:replace="~{fragments/footer :: footer}">...</div>
 
-<!--<script src="../../js/userspace/blogedit.js" th:src="@{/js/userspace/blogedit.js}"></script>-->
 <script>
+    // 初始化 md 编辑器
+    $("#md").markdown({
+        language: 'zh',
+        fullscreen: {
+            enable: true
+        },
+        resize:'vertical',
+        localStorage:'md',
+        imgurl: 'http://localhost:9090',
+        base64url: 'http://localhost:9090'
+    });
     $("#submitBlog").click(function() {
         $.ajax({
             url: '/saveBlog',

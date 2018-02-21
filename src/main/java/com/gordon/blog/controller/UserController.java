@@ -3,6 +3,7 @@ package com.gordon.blog.controller;
 import com.gordon.blog.entity.Blog;
 import com.gordon.blog.entity.User;
 import com.gordon.blog.service.BlogService;
+import com.gordon.blog.service.UserService;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +12,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -24,6 +26,9 @@ public class UserController {
 
     @Autowired
     private BlogService blogService;
+
+    @Autowired
+    private UserService userService;
 
     @RequestMapping("/u")
     public String userSpace(
@@ -46,6 +51,7 @@ public class UserController {
         model.addAttribute("user", user);
         return "userspace/profile";
     }
+
 
 
 }

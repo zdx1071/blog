@@ -6,6 +6,7 @@
 
     <groupId>com.gordon.blog</groupId>
     <artifactId>blog</artifactId>
+    <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
 
 
@@ -25,6 +26,12 @@
     </properties>
 
     <dependencies>
+        <!--去除内置tomcat-->
+        <!--<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
+        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -150,6 +157,11 @@
             <version>1.9</version>
         </dependency>
 
+        <dependency>
+            <groupId>es.nitaur.markdown</groupId>
+            <artifactId>txtmark</artifactId>
+            <version>0.16</version>
+        </dependency>
 
     </dependencies>
 

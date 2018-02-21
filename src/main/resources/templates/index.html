@@ -28,19 +28,17 @@
                         <div class="card-block">
                             <h2 class="card-title">
 		                 		<span>
-				                  <a th:href="'/u/' + ${blog.user.username}"  th:title="${blog.user.username}">
+				                  <a  th:title="${blog.user.username}">
 				                    <img src="/images/avatar-defualt.jpg" th:src="${blog.user.avatar} == null ? '/images/avatar-defualt.jpg' : ${blog.avatar}"  class="blog-avatar-50">
 				                  </a>
 						        </span>
-                                <a  class="card-link" th:href="'/u/' + ${blog.user.username} + '/blogs/'+ ${blog.blogId}"  th:title="${blog.title}" th:text="${blog.title}"></a>
+                                <a  class="card-link" th:href="'/blog/'+ ${blog.blogId}"  th:title="${blog.title}" th:text="${blog.title}"></a>
                             </h2>
                             <p class="card-text" th:text="${blog.summary}"></p>
                             <div class="card-text">
-                                <a th:href="'/u/' + ${blog.user.username}" class="card-link" th:text="${blog.user.username}"></a>
+                                <a  class="card-link" th:text="${blog.user.username}"></a>
                                 发表于 [[${#dates.format(blog.publishTime, 'yyyy-MM-dd HH:mm')}]]
-                                <i class="fa fa-eye" aria-hidden="true" th:text="${blog.readSize}"></i>
-                                <i class="fa fa-heart-o" aria-hidden="true" th:text="${blog.voteSize}"></i>
-                                <i class="fa fa-comment-o" aria-hidden="true" th:text="${blog.commentSize}"></i>
+                                <a>     阅读量：[[${blog.readSize}]]</a>
                             </div>
                         </div>
                     </div>

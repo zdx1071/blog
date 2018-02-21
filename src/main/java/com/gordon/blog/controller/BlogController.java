@@ -62,6 +62,8 @@ public class BlogController {
         List<Catalog> catalogs = catalogService.findAll();
         model.addAttribute("catalogs",catalogs);
 
+
+
         return "index";
     }
 
@@ -104,7 +106,7 @@ public class BlogController {
         model.addAttribute("user", user);
         model.addAttribute("blog", new Blog(null, null, null));
         model.addAttribute("catalogs", catalogs);
-        return "/userspace/blogedit";
+        return "userspace/blogedit";/**/
     }
 
 
@@ -132,4 +134,12 @@ public class BlogController {
         return "success";
     }
 
+
+    @RequestMapping("/blog/{blogId}")
+    public String getBlogById(@PathVariable("blogId") Long blogId,
+                           Model model){
+        Blog blog = blogService.getBlogById(blogId);
+        model.addAttribute("blog",blog);
+        return "userspace/blog";/**/
+    }
 }

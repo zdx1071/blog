@@ -32,9 +32,9 @@ public class SysRole implements Serializable{
      * 用户-角色关系
      */
     @ManyToMany
-    @JoinTable(name = "SysUserRole",joinColumns = {@JoinColumn(name = "roleId")},
+    @JoinTable(name = "SysUserRole",joinColumns = {@JoinColumn(name = "roleId",columnDefinition="int default 2")},
         inverseJoinColumns = {@JoinColumn(name = "uid")})
-    private List<User> userList;
+    private List<User> userList ;
 
     public Integer getId() {
         return id;

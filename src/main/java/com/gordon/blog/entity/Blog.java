@@ -1,6 +1,7 @@
 package com.gordon.blog.entity;
 
 
+import com.github.rjeschke.txtmark.Processor;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
 
@@ -24,7 +25,13 @@ public class Blog implements Serializable{
 
     private String summary;
 
+    @Lob  // 大对象，映射 MySQL 的 Long Text 类型
+    @Basic(fetch=FetchType.LAZY) // 懒加载
     private String content;
+
+    @Lob  // 大对象，映射 MySQL 的 Long Text 类型
+    @Basic(fetch=FetchType.LAZY) // 懒加载
+    private String htmlContent; // 将 md 转为 html
 
     private Integer readSize = 0;
 
@@ -34,6 +41,7 @@ public class Blog implements Serializable{
 
     //一个博客对应一个分类
     @OneToOne
+    @JoinColumn(name="catalog_id")
     private Catalog catalog;
 
     public Catalog getCatalog() {
@@ -128,6 +136,11 @@ public class Blog implements Serializable{
 
     public void setContent(String content) {
         this.content = content;
+        this.htmlContent = Processor.process(content);
+    }
+
+    public String getHtmlContent() {
+        return htmlContent;
     }
 
     public User getUser() {

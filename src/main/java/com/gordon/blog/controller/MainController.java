@@ -44,8 +44,8 @@ public class MainController {
 
     @RequestMapping("/403")
     public String error403(){
-        return "/error/403";
-    }
+        return "error/403";
+    }/**/
 
     @RequestMapping("/logout")
     public String logout(){

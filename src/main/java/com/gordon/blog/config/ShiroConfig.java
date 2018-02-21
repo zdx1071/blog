@@ -1,6 +1,7 @@
 package com.gordon.blog.config;
 
 import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
+import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.codec.Base64;
 import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
@@ -40,7 +41,7 @@ import java.util.Map;
 @Configuration
 public class ShiroConfig {
     @Bean
-    public ShiroFilterFactoryBean shirFilter(SecurityManager securityManager) {
+    public ShiroFilterFactoryBean shiroFilter(SecurityManager securityManager) {
         ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();
         shiroFilterFactoryBean.setSecurityManager(securityManager);
         //配置登录的url和登录成功的url
@@ -80,7 +81,7 @@ public class ShiroConfig {
 
     //配置自定义的权限登录器
     @Bean(name = "myShiroRealm")
-    public MyShiroRealm authRealm(@Qualifier("credentialsMatcher") CredentialsMatcher matcher) {
+    public MyShiroRealm authRealm(@Qualifier("hashedCredentialsMatcher") HashedCredentialsMatcher matcher) {
         MyShiroRealm myShiroRealm = new MyShiroRealm();
         myShiroRealm.setCredentialsMatcher(matcher);
         return myShiroRealm;
@@ -98,9 +99,18 @@ public class ShiroConfig {
     }
 
     //配置自定义的密码比较器
-    @Bean(name = "credentialsMatcher")
+   /* @Bean(name = "credentialsMatcher")
     public CredentialsMatcher credentialsMatcher() {
         return new CredentialsMatcher();
+    }*/
+    @Bean(name = "hashedCredentialsMatcher")
+    public HashedCredentialsMatcher hashedCredentialsMatcher() {
+        HashedCredentialsMatcher hashedCredentialsMatcher = new HashedCredentialsMatcher();
+        // 采用MD5方式加密
+        hashedCredentialsMatcher.setHashAlgorithmName("MD5");
+        // 设置加密次数
+        hashedCredentialsMatcher.setHashIterations(1024);
+        return hashedCredentialsMatcher;
     }
 
     @Bean

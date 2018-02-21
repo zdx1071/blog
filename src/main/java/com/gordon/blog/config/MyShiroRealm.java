@@ -52,7 +52,9 @@ public class MyShiroRealm extends AuthorizingRealm{
         UsernamePasswordToken utoken=(UsernamePasswordToken) token;//获取用户输入的token
         String username = utoken.getUsername();
         User user = userService.findByUsername(username);
+        // 获取盐值，即用户名
+        ByteSource salt = ByteSource.Util.bytes(username);
         //放入shiro.调用CredentialsMatcher检验密码
-        return new SimpleAuthenticationInfo(user, user.getPassword(),this.getClass().getName());
+        return new SimpleAuthenticationInfo(user, user.getPassword(),salt,this.getClass().getName());
     }
 }
